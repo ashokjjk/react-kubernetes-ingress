@@ -48,5 +48,5 @@ kubectl get svc -n default ingress-ingress-nginx-controller -o jsonpath='{.statu
   - /red
   - /green
   - /orange
-- Check the sample result <a href="">here</a>
+- Check the sample result <a href="https://github.com/ashokjjk/react-kubernetes-ingress/blob/master/sample-shot-green.PNG">here</a>
 
