@@ -38,7 +38,8 @@ helm install ingress-nginx ingress-nginx/ingress-nginx
 - Now lets's deploy <b>manifest.yaml</b> using the below command on k8s cluster
 ``` bash
 kubectl apply -f manifest.yaml
-'''
+```
+
 - Once all the pods are deployed, check out the loadbalancer external ip using
 ```
 kubectl get svc -n default ingress-ingress-nginx-controller -o jsonpath='{.status.loadBalancer.ingress[0].hostname}'
