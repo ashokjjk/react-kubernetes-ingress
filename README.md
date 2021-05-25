@@ -37,7 +37,7 @@ helm install ingress-nginx ingress-nginx/ingress-nginx
 - After successful installation loadbalancer service will be provisoned on cloud providers with static IP
 - Now lets's deploy <b>manifest.yaml</b> using the below command on k8s cluster
 ``` bash
-kubectl apply -f manifest.yaml
+kubectl apply -f k8s-manifest.yaml
 ```
 
 - Once all the pods are deployed, check out the loadbalancer external ip using
